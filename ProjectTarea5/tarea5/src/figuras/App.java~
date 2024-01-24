@@ -7,8 +7,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         int option;
         do {
-            System.out.println("Calculadora de Área by Dennis Eckerskorn");
-	    System.out.println("Seleccione una ópcion:");
+            System.out.println("Calculadora de Área - Seleccione una opción:");
             System.out.println("1. Círculo");
             System.out.println("2. Cuadrado");
             System.out.println("3. Triángulo");
@@ -26,7 +25,7 @@ public class App {
                     Square.calculateArea();
                     break;
                 case 3:
-                    Triangle.calculateArea();i
+                    Triangle.calculateArea();
                     break;
                 case 4:
                     Rectangle.calculateArea();
@@ -45,4 +44,4 @@ public class App {
             }
         } while (option != 0);
         scanner.close();    }
-
+}
